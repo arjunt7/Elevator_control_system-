@@ -30,9 +30,17 @@ Building and Running
 
    - gcc helper-mt.c -lpthread -o helper
    - gcc solution_mt.c -lpthread -o solution
-
+ 
 To execute a test case (e.g., test case 2):
     ./helper 2
+
+
+Result Comparison
+
+Test Case No:       4
+Elevator Movement (brute force):  60,434
+Elevator Movement (mutithreades + variation of the elevator scheduling algorithm):  30,903
+% dec in movements -> 48.8%
 
 Inter-Process Communication
 
